@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Food Website** locally, run this command on your git bash:
+To run **Anter Real Estate** locally, run this command on your git bash:
 
 Linux and macOS:
 
