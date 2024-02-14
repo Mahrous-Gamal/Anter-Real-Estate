@@ -487,7 +487,7 @@ border : 2px solid red;
     -moz-border-radius: 0px 0px 12px 12px;
     -ms-border-radius: 0px 0px 12px 12px;
     -o-border-radius: 0px 0px 12px 12px;
-}
+  }
 
   .image-about .img-left {
     border-radius: 12px 12px 0px 0px;
@@ -495,7 +495,7 @@ border : 2px solid red;
     -moz-border-radius: 12px 12px 0px 0px;
     -ms-border-radius: 12px 12px 0px 0px;
     -o-border-radius: 12px 12px 0px 0px;
-}
+  }
 }
 
 .who-line {
@@ -668,6 +668,8 @@ footer .right {
   left: 0;
   top: 0;
   opacity: .2;
+  /* z-index: 20 !important; */
+
 }
 
 footer .left {
@@ -675,4 +677,14 @@ footer .left {
   right: 0;
   top: 0;
   opacity: .2;
+  /* z-index: 20 !important; */
+
+}
+
+footer .icons-footer {
+  z-index: 10 !important;
+}
+
+footer a:hover {
+  cursor: pointer !important;
 }

@@ -307,6 +307,7 @@ a {
 
 }
 
+
 footer {
   background-color: rgba(8, 30, 43, 1) !important;
   color: rgba(255, 255, 255, 0.8);
@@ -318,6 +319,8 @@ footer .right {
   left: 0;
   top: 0;
   opacity: .2;
+  /* z-index: 20 !important; */
+
 }
 
 footer .left {
@@ -325,4 +328,14 @@ footer .left {
   right: 0;
   top: 0;
   opacity: .2;
+  /* z-index: 20 !important; */
+
+}
+
+footer .icons-footer {
+  z-index: 10 !important;
+}
+
+footer a:hover {
+  cursor: pointer !important;
 }
