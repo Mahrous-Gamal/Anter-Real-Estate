@@ -192,11 +192,16 @@ a {
   -moz-transition: all .3s ease;
   -ms-transition: all .3s ease;
   -o-transition: all .3s ease;
+  color: white;
 }
 
 .nav-link:hover {
   color: var(--main-color) !important;
 }
+.nav-item .nav-link.active {
+  color: var(--main-color);
+}
+
 
 .btn-outline-info {
   color: var(--main-color) !important;
@@ -210,35 +215,39 @@ a {
   color: #081E2B !important;
 }
 
-.general-txt  {
+.general-txt {
   /* border:2px solid red; */
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 @media only screen and (min-width: 1000px) {
   .general-txt {
-text-align: center;
-  border:2px solid gold;
+    text-align: center;
+    /* border:2px solid gold; */
   }
 }
-.buy{
-    border:2px solid red;
-    /* height:100vh; */
-    margin-top:50px;
-    padding:50px 0;
+
+.buy {
+  /* border: 2px solid red; */
+  /* height:100vh; */
+  margin-top: 50px;
+  padding: 50px 0;
 }
+
 .card-swiper .profile-details {
   /* display: flex;
   align-items: center; */
   column-gap: 12px;
   padding: 15px;
-  padding-bottom:0;
+  padding-bottom: 0;
   /* border:2px solid blue; */
 
 }
-.card{
-  position:relative;
+
+.card {
+  position: relative;
 }
 
 .card-details .name {
@@ -246,90 +255,124 @@ text-align: center;
   font-weight: 500;
   /* border:2px solid red; */
 }
+
 .card-details .job {
 
   color: rgba(0, 0, 0, 0.7);
 }
-.image-card{
-  position:relative;
+
+.image-card {
+  position: relative;
 }
-.read-more{
-  position:absolute;
-  bottom:0;
-  width:100%;
-  color:white;
-  text-align:center;
+
+.read-more {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
   background: rgba(0, 0, 0, 0.45);
 
 }
-.icons{
+
+.icons {
   background: linear-gradient(180deg, rgba(217, 217, 217, 0.4) 0%, rgba(217, 217, 217, 0) 100%);
-padding:10px;
+  padding: 10px;
 }
-.icon-2{
+
+.icon-2 {
   /* border:2px solid red; */
-position:relative
+  position: relative
 }
-.icon-2:after{
-position:absolute;
-content: "";
-width: 1px;
-height: 100%;
-left:150% ;
-top:0 ;
-background:gray;
+
+.icon-2:after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 100%;
+  left: 150%;
+  top: 0;
+  background: gray;
 
 }
-.icon-2:before{
-  position:absolute;
+
+.icon-2:before {
+  position: absolute;
   content: "";
   width: 2px;
   height: 100%;
-  right:150% ;
-  bottom:0 ;
-  background:gray;
-  
-  }
-  .line-contact{
-    background: linear-gradient(270deg, rgba(22, 52, 70, 0) 0%, #E1AB26 47.92%, rgba(22, 52, 70, 0) 100%);
-    width: 100%;
-   height:3px;
-    
-  }
-  .info-contact{
-    /* border:2px solid blue; */
-    /* height:100vh; */
-  }
-  .info-contact img{
-  width:30px;
-  }
-  .description{
-    border:2px solid #D8B45C;
-     /* background: linear-gradient(180deg, #D8B45C 0%, rgba(255, 255, 255, 0.515625) 48.44%, #D8B45C 100%); */
-     padding:30px;
-     border-radius:5px;
-     font-size:20px;
+  right: 150%;
+  bottom: 0;
+  background: gray;
 
-  }
-.contact-right{
+}
+
+.line-contact {
+  background: linear-gradient(270deg, rgba(22, 52, 70, 0) 0%, #E1AB26 47.92%, rgba(22, 52, 70, 0) 100%);
+  width: 100%;
+  height: 3px;
+
+}
+
+.info-contact {
+  /* border:2px solid blue; */
+  /* height:100vh; */
+}
+
+.info-contact img {
+  width: 30px;
+}
+
+.description {
+  border: 2px solid #D8B45C;
+  /* background: linear-gradient(180deg, #D8B45C 0%, rgba(255, 255, 255, 0.515625) 48.44%, #D8B45C 100%); */
+  padding: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
+
+.contact-right {
   /* border:2px solid #D8B45C; */
-  height:300px;
-  padding:20px;
-  border:2px solid gray;
-  border-radius:20px;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 20px;
 
 
 }
-.contact-right .box{
-width:100%;
-height:60px;
-border:2px solid #D8B45C;
- border-radius:12px;
- background:#D8B45C;
-color:white;
+
+.contact-right .box {
+  width: 100%;
+  height: 60px;
+  border: 2px solid #D8B45C;
+  border-radius: 12px;
+  background: #D8B45C;
+  color: white;
 }
-.contact-right .box-2{
-  background:white ;
-  border:2px solid #D8B45C;
-  color:black; 
+
+.contact-right .box-2 {
+  background: white;
+  border: 2px solid #D8B45C;
+  color: black;
+}
+
+footer {
+  background-color: rgba(8, 30, 43, 1) !important;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+footer .right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .2;
+}
+
+footer .left {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: .2;
 }
