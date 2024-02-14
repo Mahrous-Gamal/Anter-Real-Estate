@@ -125,3 +125,14 @@
   border: 2px solid #D8B45C;
   color: black;
 }
+
+.location {
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 768px) {
+  .location {
+    /* border: 2px solid green; */
+    font-size: 14px;
+  }
+}
