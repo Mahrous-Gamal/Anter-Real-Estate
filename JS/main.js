@@ -44,8 +44,8 @@ document.querySelectorAll('.featured-image-3').forEach(image_3 =>{
   });
 });
 // --------------------------
-var swiper = new Swiper(".slide-container", {
-  slidesPerView: 4,
+let swiper1 = new Swiper(".container-swiper.swiper.tt .slide-container", {
+    slidesPerView: 4,
   spaceBetween: 20,
   sliderPerGroup: 4,
   loop: true,
@@ -78,8 +78,8 @@ var swiper = new Swiper(".slide-container", {
   },
 });
 
-var swiper = new Swiper(".slide-container", {
-  slidesPerView: 4,
+let swiper2 = new Swiper(".container-swiper.swiper.bb .slide-container", {
+    slidesPerView: 4,
   spaceBetween: 20,
   sliderPerGroup: 4,
   loop: true,
@@ -111,5 +111,3 @@ var swiper = new Swiper(".slide-container", {
     },
   },
 });
-
-
